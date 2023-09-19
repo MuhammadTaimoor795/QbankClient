@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body{
+  font-family: 'Poppins';
+}
+.App {
+  text-align: center;
+}
+.mainClassFlex{
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 0.5rem;
+  
+}
+.correctClass{
+  margin-left: 2.5rem;
+
+}
+.newClassF{
+  display: flex;
+    flex-direction: row;
+}
+.newClassFN{
+  display: flex;
+    flex-direction: row;
+}
+
+.resultFlex{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+
+}
+.ant-pagination-options{
+  display: block !important;
+}
+
+.alertTimeout{
+  position: absolute; left: 43%; top: 2%;
+}
+@media (min-width:700px){
+  .shnbtn{
+    margin-left: 20px;
+  }
+  
+}
+@media (max-width:700px){
+.mainClassFlex{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 103px;
+  margin-left: 0;
+  
+}
+.correctClass{
+  margin-left: 0;
+
+}
+
+.alertTimeout{
+  position: absolute; left: 12%; top: 2%;
+}
+.shnbtn{
+  margin-left: 0px;
+}
+.resultFlex{
+  flex-direction: column;
+  display: flex;
+
+}
+.newClassF{
+  display: flex;
+    flex-direction: column;
+}
+.newClassFN{
+  display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+  /* :where(.css-dev-only-do-not-override-14wwjjs).ant-btn-primary {
+  color: #fff;
+  background-color: #1677ff !important;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+} */
